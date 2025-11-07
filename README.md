@@ -1,42 +1,58 @@
 # 🧠 NeuroCanvas – AI Image Generator
 
 **NeuroCanvas** transforms your imagination into art using **Generative AI**.  
-Describe your idea, choose a style, and watch AI paint your vision.
+Describe your idea, choose a style, and watch AI paint your vision — all powered by **Qwen-Image-Lightning**.
 
-## ✨ Features
-- 🎨 AI text-to-image generation (Qwen-Image-Lightning)
-- ⚙️ Multiple art styles (Realistic, Cyberpunk, Fantasy, etc.)
-- 🔑 Use your own or default Hugging Face API key
-- 💾 Download results instantly
-- 🖼️ Beautiful dark UI with image history
-
-## ⚙️ Tech Stack
-- **Streamlit**
-- **Hugging Face Hub**
-- **Pillow**
-- **Python-Dotenv**
-
-## 🚀 Run Locally
-```bash
-git clone https://github.com/raghavramani04/NeuroCanvas-AI-Image-Generator.git
-cd NeuroCanvas-AI-Image-Generator
-uv pip install -r requirements.txt
-streamlit run NeuroCanvas.py
-
+🌐 **Live App:** [neurocanvas-ai.streamlit.app](https://neurocanvas-ai.streamlit.app/)  
+📦 **Repository:** [github.com/raghavramani04/NeuroCanvas-AI-Image-Generator](https://github.com/raghavramani04/NeuroCanvas-AI-Image-Generator)  
+📄 **License:** MIT  
+🧾 **Version:** 1.0.0  
 
 ---
 
+## ✨ Features
 
-dependencies:
-  - streamlit
-  - huggingface_hub
-  - pillow
-  - python-dotenv
+- 🎨 **AI text-to-image generation** powered by Qwen-Image-Lightning  
+- ⚙️ Choose from multiple **art styles** — Realistic, Cartoon, Cyberpunk, Fantasy, and more  
+- 🔑 Supports both **default** and **custom Hugging Face API keys**  
+- 💾 **Instant downloads** for generated images  
+- 🖼️ **Dark, aesthetic UI** with previous image history  
+- ⚡ **Fast and lightweight Streamlit-based deployment**
 
-developer:
-  name: "Raghav Ramani"
-  email: "raghavramani2004@gmail.com"
-  linkedin: "https://linkedin.com/in/raghavramani"
-  github: "https://github.com/Raghav1378"
-  location: "Jaipur, India"
-  role: "AI & ML Enthusiast | Engineer @ JECRC University"
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** Streamlit  
+- **Backend:** Hugging Face Hub  
+- **Language:** Python  
+- **Libraries:**
+  - huggingface_hub  
+  - pillow  
+  - python-dotenv  
+  - langchain  
+  - langchain-openai  
+  - langchain-groq  
+
+**Future Expansions**
+- Integrating LangChain Suite for more advanced AI reasoning  
+- Multi-model support for diverse artistic outputs  
+- Enhanced prompt engineering for detailed control  
+
+---
+
+## 🚀 Run Locally
+
+You can easily run **NeuroCanvas** on your local machine to explore or modify it.  
+Follow the steps below to get started:
+
+```bash
+# Clone the repository
+git clone https://github.com/raghavramani04/NeuroCanvas-AI-Image-Generator.git
+cd NeuroCanvas-AI-Image-Generator
+
+# Install dependencies
+uv pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run NeuroCanvas.py
