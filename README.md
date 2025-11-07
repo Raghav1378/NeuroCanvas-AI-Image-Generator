@@ -4,7 +4,7 @@
 Describe your idea, choose a style, and watch AI paint your vision — all powered by **Qwen-Image-Lightning**.
 
 🌐 **Live App:** [neurocanvas-ai.streamlit.app](https://neurocanvas-ai.streamlit.app/)  
-📦 **Repository:** [github.com/raghavramani04/NeuroCanvas-AI-Image-Generator](https://github.com/raghavramani04/NeuroCanvas-AI-Image-Generator)  
+📦 **Repository:** [github.com/raghavramani04/NeuroCanvas-AI-Image-Generator](https://github.com/Raghav1378/NeuroCanvas-AI-Image-Generator)  
 📄 **License:** MIT  
 🧾 **Version:** 1.0.0  
 
